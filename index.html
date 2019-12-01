@@ -11,7 +11,26 @@
 </head>
 <body>
     <header>
-        Logo and Navigation Bar
+        <!--Start of header & navigation bar-->
+        <nav class="navbar navbar-light bg-navy navbar-expand-sm">
+            <a class="navbar-brand logo" href="index.html">
+                <img src="assets/images/logo.jpg" alt="logo"/>
+            </a>
+
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">    
+                <ul class="navbar-nav ml-auto text-right"> 
+                    <li class="active nav-item mr-2"><a class"nav-link" href="/"><i class="fas fa-home"></i><span class="menuitem">Home</span></a></li>
+                    <li class="nav-item mr-2"><a class"nav-link" href="/"><i class="fas fa-golf-ball"></i><span class="menuitem">Course</span></a></li>
+                    <li class="nav-item mr-2"><a class"nav-link" href="/"><i class="fas fa-coins"></i><span class="menuitem">Green Fees</span></a></li>
+                    <li class="nav-item mr-2"><a class"nav-link" href="/"><i class="fas fa-users"></i><span class="menuitem">Membership</span></a></li>
+                    <li class="nav-item mr-2"><a class"nav-link" href="/"><i class="fas fa-map-marker-alt"></i><span class="menuitem">Location</span></a></li>
+                    <li class="nav-item mr-2"><a class"nav-link" href="/"><i class="far fa-comment"></i><span class="menuitem">Contact</span></a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <section>
         Background image, overlay text and CTA button
@@ -34,5 +53,9 @@
     <footer>
         Address, affiliations & Social Media links
     </footer>
+    <!--Include scripts for Javascript functionality provided by Bootstrap e.g. Toggler-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
