@@ -40,3 +40,35 @@ img {
     font-weight: 400;
     letter-spacing: 1px;
 }
+/*Header Content*/
+.bg-image{
+    height: 100vh;
+    background: url('../images/course_1.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+}
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.jumbotron{
+    position: relative;
+    top: 25%;
+    background-color: transparent;
+    color: #ffffff;
+}
+.jumbotron h1, h2{
+    font-family: 'Oswald',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+}
+.callout{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
