@@ -11,7 +11,7 @@
 </head>
 <body>
     <!--Start navigation bar-->
-    <nav class="navbar navbar-light bg-navy navbar-expand-sm fixed-top">
+    <nav class="navbar bg-navy navbar-expand-sm fixed-top">
         <a class="navbar-brand logo" href="index.html">
             <img src="assets/images/logo.jpg" alt="logo"/>
         </a>
@@ -21,12 +21,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">    
             <ul class="navbar-nav ml-auto text-right"> 
-                <li class="active nav-item mr-2"><a class"nav-link" href="/"><i class="fas fa-home"></i><span class="menuitem">Home</span></a></li>
-                <li class="nav-item mr-2"><a class"nav-link" href="/"><i class="fas fa-golf-ball"></i><span class="menuitem">Course</span></a></li>
-                <li class="nav-item mr-2"><a class"nav-link" href="/"><i class="fas fa-coins"></i><span class="menuitem">Green Fees</span></a></li>
-                <li class="nav-item mr-2"><a class"nav-link" href="/"><i class="fas fa-users"></i><span class="menuitem">Membership</span></a></li>
-                <li class="nav-item mr-2"><a class"nav-link" href="/"><i class="fas fa-map-marker-alt"></i><span class="menuitem">Location</span></a></li>
-                <li class="nav-item mr-2"><a class"nav-link" href="/"><i class="far fa-comment"></i><span class="menuitem">Contact</span></a></li>
+                <li class="active nav-item mr-2"><a class="nav-link" href="index.html"><i class="fas fa-home"></i><span>Home</span></a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#course-info"><i class="fas fa-golf-ball"></i><span>Course</span></a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#green-fees"><i class="fas fa-coins"></i><span>Green Fees</span></a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#membership"><i class="fas fa-users"></i><span>Membership</span></a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#location"><i class="fas fa-map-marker-alt"></i><span>Location</span></a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="/"><i class="far fa-comment"></i><span>Contact</span></a></li>
             </ul>
         </div>
     </nav>
@@ -59,7 +59,7 @@
     </header>
     <!--End of landing Page-->
     <!--Start of course info section-->    
-    <section>
+    <section class="section-padding-top" id="course-info">
         <div class="container-fluid course-container">
             <h2 class="section-header text-center">Course Information</h2>
             <div class="row">
@@ -89,7 +89,7 @@
     </section>
     <!--End of course info section-->   
     <!--Start of Green Fees section-->    
-    <section>
+    <section class="section-padding-top" id="green-fees">
         <div class="container-fluid fees-container">
             <h2 class="section-header text-center">Green Fees & Equipment Hire<i class="fas fa-coins rate"></i></h2>
             <div class="row">
@@ -225,12 +225,213 @@
         </div>     
     </section>
     <!--End of Green Fees section--> 
+    <!--Start of Membership Options-->
+    <section class="section-padding-top" id="membership">
+            <div class="container-fluid membership-container">
+                <h2 class="section-header text-center">Membership Options<i class="fas fa-users rate"></i></h2>
+                <div class="row">
+                    <div class="col-12 col-md-4 member-card">
+                        <div class="card">
+                                    <div class="card-header font-weight-bold mb-2">7 Day Full Membership</div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <i class="fas fa-male text-primary member-rate"></i><span class="member-rate">€1,149</span>
+                                            <i class="fas fa-female text-danger member-rate"></i><span>€999</span>
+                                        </h5>
+                                        <div class="card-text">
+                                            <ul class="member-item">
+                                                <li>Includes all green fees Monday to Sunday</li>
+                                                <li>Official GUI/ILGU Handicap</li>
+                                                <li>Reduced Rate for Guests</li>
+                                            </ul>
+                                        </div>
+                                        <a class="btn btn-member" data-toggle="collapse" href="#collapse-7DF" role="button" aria-expanded="false" aria-controls="collapse-7DF">
+                                        More Information
+                                        </a>
+                                        <div class="collapse" id="collapse-7DF">
+                                            <div>
+                                                <ul class="member-item">
+                                                    <li>Payment plan available</li>
+                                                    <li>Insurance €50 extra (optional)</li>
+                                                    <li>GUI fees €54 extra</li>
+                                                    <li>Compeition fees €3</li>
+                                                    <li>Valid until March 2021</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 member-card">
+                        <div class="card">
+                                    <div class="card-header font-weight-bold mb-2">7 Day Pay & Play Membership</div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <i class="fas fa-male text-primary member-rate"></i><span class="member-rate">€439</span>
+                                            <i class="fas fa-female text-danger member-rate"></i><span>€419</span>
+                                        </h5>
+                                        <div class="card-text">
+                                            <ul class="member-item">
+                                                <li>Reduced Green Fee Rates (Monday - Sunday)</li>
+                                                <li>Monday – Friday €15 (Excluding Public Holidays)</li>
+                                                <li>Weekend / Bank or Public Holiday €20</li>
+                                            </ul>
+                                        </div>
+                                        <a class="btn btn-member" data-toggle="collapse" href="#collapse-7DP" role="button" aria-expanded="false" aria-controls="collapse-7DP">
+                                            More Information
+                                        </a>
+                                        <div class="collapse" id="collapse-7DP">
+                                            <div>
+                                                <ul class="member-item">
+                                                    <li>Reduced Buggy Hire</li>
+                                                    <li>Insurance €50 extra (optional)</li>
+                                                    <li>GUI fees €54 extra</li>
+                                                    <li>Compeition fees €3</li>
+                                                    <li>Free Rules of Golf Book</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                  </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 member-card">
+                        <div class="card">
+                                    <div class="card-header font-weight-bold mb-2">5 Day Full Membership</div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <i class="fas fa-male text-primary member-rate"></i><span class="member-rate">€649</span>
+                                            <i class="fas fa-female text-danger member-rate"></i><span>€599</span>
+                                        </h5>
+                                        <div class="card-text">
+                                            <ul class="member-item">
+                                                <li>All Green Fees Monday - Friday (Excluding Public Holidays)</li>
+                                                <li>Monday – Friday €15 (Excluding Public Holidays)</li>
+                                                <li>Reduced Rate for Guests</li>
+                                            </ul>
+                                        </div>
+                                        <a class="btn btn-member" data-toggle="collapse" href="#collapse-5DF" role="button" aria-expanded="false" aria-controls="collapse-7DP">
+                                            More Information
+                                        </a>
+                                        <div class="collapse" id="collapse-5DF">
+                                            <div>
+                                                <ul class="member-item">
+                                                    <li>Reduced Buggy Hire</li>
+                                                    <li>Insurance €50 extra (optional)</li>
+                                                    <li>GUI fees €54 extra</li>
+                                                    <li>Compeition fees €3</li>
+                                                    <li>Free Rules of Golf Book</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                  </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4 member-card">
+                        <div class="card">
+                            <div class="card-header font-weight-bold mb-2">Senior Full Membership</div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="fas fa-male text-primary member-rate"></i><span class="member-rate">€1,049</span>
+                                    <i class="fas fa-female text-danger member-rate"></i><span>€899</span>
+                                </h5>
+                                <div class="card-text">
+                                    <ul class="member-item">
+                                        <li>Includes all green fees Monday to Sunday</li>
+                                        <li>Official GUI/ILGU Handicap</li>
+                                        <li>Over 60's Only </li>
+                                    </ul>
+                                </div>
+                                <a class="btn btn-member" data-toggle="collapse" href="#collapse-SFM" role="button" aria-expanded="false" aria-controls="collapse-SFM">
+                                    More Information
+                                </a>
+                                <div class="collapse" id="collapse-SFM">
+                                    <div>
+                                        <ul class="member-item">
+                                            <li>Reduced Buggy Hire</li>
+                                            <li>Insurance €50 extra (optional)</li>
+                                            <li>GUI fees €54 extra</li>
+                                            <li>Compeition fees €3</li>
+                                            <li>Free Rules of Golf Book</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 member-card">
+                            <div class="card">
+                                <div class="card-header font-weight-bold mb-2">Senior Pay & Play Membership</div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <i class="fas fa-male text-primary member-rate"></i><span class="member-rate">€399</span>
+                                        <i class="fas fa-female text-danger member-rate"></i><span>€359</span>
+                                    </h5>
+                                    <div class="card-text">
+                                        <ul class="member-item">
+                                            <li>Reduced Green Fee Rates (Monday - Sunday)</li>
+                                            <li>Monday – Friday €15 (Excluding Public Holidays)</li>
+                                            <li>Weekend / Bank or Public Holiday €20</li>
+                                        </ul>
+                                    </div>
+                                    <a class="btn btn-member" data-toggle="collapse" href="#collapse-SPM" role="button" aria-expanded="false" aria-controls="collapse-SPM">
+                                        More Information
+                                    </a>
+                                    <div class="collapse" id="collapse-SPM">
+                                        <div>
+                                            <ul class="member-item">
+                                                <li>Reduced Buggy Hire</li>
+                                                <li>Insurance €50 extra (optional)</li>
+                                                <li>GUI fees €54 extra</li>
+                                                <li>Compeition fees €3</li>
+                                                <li>Free Rules of Golf Book</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 member-card">
+                                <div class="card">
+                                    <div class="card-header font-weight-bold mb-2">Student Full Membership</div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <i class="fas fa-male text-primary member-rate"></i><span class="member-rate">€599</span>
+                                            <i class="fas fa-female text-danger member-rate"></i><span>€499</span>
+                                        </h5>
+                                        <div class="card-text">
+                                            <ul class="member-item">
+                                                <li>Includes all green fees Monday to Sunday</li>
+                                                <li>Official GUI/ILGU Handicap</li>
+                                                <li>Student ID Required</li>
+                                            </ul>
+                                        </div>
+                                        <a class="btn btn-member" data-toggle="collapse" href="#collapse-SFM" role="button" aria-expanded="false" aria-controls="collapse-SFM">
+                                            More Information
+                                        </a>
+                                        <div class="collapse" id="collapse-SFM">
+                                            <div>
+                                                <ul class="member-item">
+                                                    <li>Reduced Buggy Hire</li>
+                                                    <li>Insurance €50 extra (optional)</li>
+                                                    <li>GUI fees €54 extra</li>
+                                                    <li>Compeition fees €3</li>
+                                                    <li>Free Rules of Golf Book</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                  </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+    </section>
+    <!--End of Membership Options-->
+    <!--Start of Location-->
     <section>
-            Membership Options
-        </section>
-        <section>
             Location
-        </section>
+    </section>
         <section>
             Contact Form
         </section>
