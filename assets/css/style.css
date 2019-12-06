@@ -146,5 +146,15 @@ img {
 }
 /*Contact Form*/
 .form-control:hover{
-    border: 1px solid #007bff;  
+    border: 2px solid #007bff;  
 }
+.modal-header {
+    background-color: #007bff;
+    color: #ffffff;
+ }
+ .close{
+    color:#ffffff ;
+ }
+ .close:hover{
+     color:#ffffff;
+ }

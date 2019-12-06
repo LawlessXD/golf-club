@@ -26,7 +26,7 @@
                 <li class="nav-item mr-2"><a class="nav-link" href="#green-fees"><i class="fas fa-coins"></i><span>Green Fees</span></a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="#membership"><i class="fas fa-users"></i><span>Membership</span></a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="#location"><i class="fas fa-map-marker-alt"></i><span>Location</span></a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="/"><i class="far fa-comment"></i><span>Contact</span></a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#contact"><i class="far fa-comment"></i><span>Contact</span></a></li>
             </ul>
         </div>
     </nav>
@@ -498,13 +498,34 @@
                     </div>
                 </div class="row">
                     <div class="col-12 text-center">
-                        <button type="button" class="btn btn-primary btn-lg center">Send Message</button>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#confirmation-box">Send Message</button>
                     </div>
                 </div>
             </form>
             </div>
     </section>
-    </main>
+
+    <!-- Modal for Contact us -->
+<div class="modal fade" id="confirmation-box" tabindex="-1" role="dialog" aria-labelledby="confirmation-box" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="confirmation-box-title">Thank you for contacting us</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>We will be in contact with you as soon as possible</p>
+              <p> Grange Castle Golf Club</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End of Contact Modal-->
     <footer>
         Address, affiliations & Social Media links
     </footer>
