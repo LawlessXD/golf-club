@@ -43,12 +43,12 @@
                         <div class="row">
                                 <div class="col-12 col-md-6">
                                     <div class="callout text-lg-right">
-                                        <a href="/"><button type="button" class="btn btn-primary btn-lg">Book a Tee Time</button></a>
+                                        <a href="#contact"><button type="button" class="btn btn-primary btn-lg">Book a Tee Time</button></a>
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6">
                                     <div class="callout text-lg-left">
-                                        <a href="/"><button type="button" class="btn btn-primary btn-lg">Become a Member</button></a>
+                                        <a href="#contact"><button type="button" class="btn btn-primary btn-lg">Become a Member</button></a>
                                     </div>
                                 </div>
                         </div>
@@ -442,10 +442,68 @@
             </div>
     </section>
     <!--End of location-->
-    <!--Start of -->
-        <section>
-            Contact Form
-        </section>
+    <!--Start of Contact Form -->
+    <section class="section-padding-top" id="contact">
+            <div class="container">
+            <h2 class="section-header text-center">Contact Us<i class="far fa-comment rate"></i></h2>
+            <form>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label class="font-weight-bold" for "firstname">First Name *</label>    
+                            <input type="text" class="form-control" id="firstname" placeholder="First Name" required>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label class="font-weight-bold" for "lastname">Last Name *</label>    
+                            <input type="text" class="form-control" id="lastname" placeholder="Last Name" required>
+                        </div>
+                    </div>                   
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label class="font-weight-bold" for "phone-number">Phone Number *</label>    
+                            <input type="tel" class="form-control" id="phone-nunber" placeholder="Phone Number" required>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label class="font-weight-bold" for "email">Email *</label>    
+                            <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+                        </div>
+                    </div>                   
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label class="font-weight-bold" for "enquiry-type">Enquiry Type *</label>
+                            <select class="form-control" id="enquiry-type">
+                                <option class="selected">Please select an enquiry type</option>
+                                <option>Book a Tee Time</option>
+                                <option>Membership</option>
+                                <option>Society Booking</option>
+                                <option>Other</option>       
+                            </select>    
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label class="font-weight-bold"for "message-box">Message *</label>
+                            <textarea class="form-control" id="message-box" rows="5" placeholder="Write your message here..."></textarea>
+                        </div>
+                    </div>
+                </div class="row">
+                    <div class="col-12 text-center">
+                        <button type="button" class="btn btn-primary btn-lg center">Send Message</button>
+                    </div>
+                </div>
+            </form>
+            </div>
+    </section>
     </main>
     <footer>
         Address, affiliations & Social Media links
