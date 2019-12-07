@@ -13,6 +13,9 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
+ul,li{
+    list-style-type: none;
+}
 /*navbar*/
 .navbar {
     margin-bottom: 0;
@@ -132,10 +135,6 @@ img {
     margin: 0;
     padding: 0;
 }
-.member-item > ul,li{
-
-    list-style-type: none;
-}
 .btn-member{
     background-color: #2d3065;
     color: #ffffff;
@@ -146,7 +145,7 @@ img {
 }
 /*Contact Form*/
 .form-control:hover{
-    border: 2px solid #007bff;  
+    border: 1px solid #007bff;  
 }
 .modal-header {
     background-color: #007bff;
@@ -158,3 +157,31 @@ img {
  .close:hover{
      color:#ffffff;
  }
+ #contact{
+     padding-bottom: 20px;
+ }
+
+ .footer-text, .footer-text a{
+     color:#ffffff;
+ }
+ .footer-icon{
+     color: #007bff;
+ }
+ .GUI-logo{
+     width: 150px;
+ }
+ .social-media a{
+     color: #ffffff;
+     padding-top: 60px;
+ }
+ .social-list li{
+     display: inline-block;
+     padding: 10px;
+     font-size: 200%;
+ }
+ .social-icon:hover i{
+    color: #007bff;
+    transform: scale(1.5);
+ }
+
+  
