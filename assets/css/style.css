@@ -54,7 +54,26 @@ ul,li{
     background-size: cover;
     position: relative;
     padding-top: 100px;
+
+    animation-name: bg-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
+.bg-image-outer{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes bg-image-zoom{
+    from{
+      transform: scale(1);
+    }
+    to{
+      transform: scale(1.1);
+    }
+  }
+
 .opaque-overlay {
     position: absolute;
     top: 0;
