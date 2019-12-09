@@ -42,5 +42,7 @@ C|Social Media Presence  |4|5|
 D|Create an online booking system  |4|1|
 E|Increase club members  |4|4|
 F|Create a members only section    |4|1|
+
+![Feasiblity Matrix](https://github.com/LawlessXD/golf-club/blob/master/assets/images/feasiblity-matrix.JPG "Feasiblity Matrix")
 ### Scope
 
