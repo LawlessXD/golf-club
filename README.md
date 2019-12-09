@@ -28,6 +28,19 @@ The primary audience for the website are members of the public looking to play a
 - As an existing Customer, I want to be able to book a tee time.
 
 The management of the golf club want to create an online presence for the club and provide information about the course with the objective to get additional Customers both as occasional golfers and to increase the total number of members.  
+- As manager of the golf club, I want to increase the number of members at the club.
 
+To meet the objectives of the golf club and needs of it's target audience, I wanted to create a simple but attractive landing page.
+
+The list of opportunites are presented below and rated in terms of importance, viability and feasibilty.
+
+|Opportunity    |   Importance     |    Viability / Feasibilty|
+|---------------|------------------|--------------------------|
+|Create an online presence  |5|5|
+|Provide Course Information  |3|5|
+|Social Media Presence  |4|5|
+|Create an online booking system  |4|1|
+|Increase club members  |4|4|
+|Create a members only section    |4|1|
 ### Scope
 
