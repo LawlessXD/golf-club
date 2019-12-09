@@ -34,13 +34,13 @@ To meet the objectives of the golf club and needs of it's target audience, I wan
 
 The list of opportunites are presented below and rated in terms of importance, viability and feasibilty.
 
-|Opportunity    |   Importance     |    Viability / Feasibilty|
-|---------------|:----------------:|:------------------------:|
-|Create an online presence  |5|5|
-|Provide Course Information  |3|5|
-|Social Media Presence  |4|5|
-|Create an online booking system  |4|1|
-|Increase club members  |4|4|
-|Create a members only section    |4|1|
+Letter|Opportunity    |   Importance     |    Viability / Feasibilty|
+----|---------------|:----------------:|:------------------------:|
+sA|Create an online presence  |5|5|
+B|Provide Course Information  |3|5|
+C|Social Media Presence  |4|5|
+D|Create an online booking system  |4|1|
+E|Increase club members  |4|4|
+F|Create a members only section    |4|1|
 ### Scope
 
