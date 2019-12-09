@@ -16,5 +16,7 @@ Grange Castle Golf Club was selected as the existing official website is not mob
 
 The objective of this website is to provide information to members of the public about the golf course, where the course is located and cost to play a game of golf. The site also provides information on the membership options available and a call to action button on the homepage to become a member.
 
+### Strategy
+
 
 
