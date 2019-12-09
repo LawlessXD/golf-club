@@ -51,7 +51,7 @@ ul,li{
     height: 2px;
     bottom: 0;
     left: 10;
-    background-color: #007bff;
+    background-color: #4176E8;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -63,11 +63,26 @@ ul,li{
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
+.navbar-nav a:active:before{
+    content:"";
+    position: absolute;
+    width: 90%;
+    height: 2px;
+    bottom: 0;
+    left: 10;
+    background-color: #4176E8;
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
 .nav-link > span{
     padding-left: 10px;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
+}
+.nav-link > i{
+    color:#B3982D;
 }
 /*Add additional padding to push content below fixed navbar*/
 .section-padding-top{
@@ -138,7 +153,11 @@ ul,li{
 .section-header{
     padding-top: 40px;
     padding-bottom: 20px;
-    font-weight: 700;
+    color: #2d3065;
+}
+.section-header i{
+    padding-left: 6px;
+    color: #B3982D;
 }
 .course-video iframe{
     padding: 20px;
@@ -190,20 +209,12 @@ ul,li{
     margin: 0;
     padding: 0;
 }
-.btn-member{
-    background-color: #2d3065;
-    color: #ffffff;
-}
-.btn-member:hover{
-    background-color: #007bff;
-    color: #ffffff;
-}
 /*Contact Form*/
 .form-control:hover{
-    border: 1px solid #007bff;  
+    border: 1px solid #4176E8;;  
 }
 .modal-header {
-    background-color: #007bff;
+    background-color: #4176E8;;
     color: #ffffff;
  }
  .close{
@@ -235,7 +246,7 @@ ul,li{
      font-size: 200%;
  }
  .social-icon:hover i{
-    color: #007bff;
+    color: #4176E8;;
     transform: scale(1.5);
  }
 
