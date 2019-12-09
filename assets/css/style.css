@@ -178,9 +178,10 @@ ul,li{
 .rate{
     padding-left: 6px;
 }
-.table {
+.course-rates {
     margin: auto;
- }
+    border-color: #B3982D;
+}
  .outer-wrapper{
      padding: 10px;
  }
@@ -193,6 +194,12 @@ ul,li{
     height: 100%;
     background: url('../images/course_3.jpg') no-repeat center center;
     background-size: cover;
+}
+th{
+    color: #2d3065;
+}
+table i{
+    color: #B3982D;
 } 
 /*End Green Fees*/ 
 /*Membership options*/
