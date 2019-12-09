@@ -4,4 +4,4 @@ The purpose of this project is to create a static website for a golf club using 
 
 Grange Castle Golf Club was selected as the existing official website is not mobile friendly.  
 
-![Am I Responsive Image][https://github.com/LawlessXD/golf-club/blob/master/assets/images/AmIResponsive.JPG "Am I Responsive"]
+![Am I Responsive Image](https://github.com/LawlessXD/golf-club/blob/master/assets/images/AmIResponsive.JPG "Am I Responsive")
