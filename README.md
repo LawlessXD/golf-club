@@ -115,3 +115,17 @@ ___
 - HTML - Used as markup for the website
 - CSS - Used to add style to the page and position elements
 - jQuery - Used in conjunction with Bootstrap V4 Framework
+
+### Libraries
+- Bootstrap - Used throughout the site for responsive design
+- Font Awesome - Used to enhance the UX 
+- Animate.css - Used to add animation to text overlay
+                Download via https://daneden.github.io/animate.css/
+- Google Fonts - imported into CSS
+
+### Tools
+- VSCode - Used as IDE for project
+- Git - Used for version control throughout the project
+- MS Paint - Used for eyedropper tool for logo
+
+
