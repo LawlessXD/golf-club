@@ -87,3 +87,13 @@ The Bootstrap jumbotron class is used to position the overlay text on the centre
 The landing page has two call to action buttons. The first button "Book a Tee time" genrates a modal pop up advising users to contact the clubhouse to book a tee time. This call to action button can be developed further to open online booking system but this is outside the scope of this project. The second button "Become a member" directs users to the Contact section of the site where they can submit their membership enquiry to the Golf Club. This feature can also be developed furher to send an email to the management of the Golf Club. 
 
 ### Course Information
+The course information section presents the user with a video providing an overview of the course in conjunction with a description.
+
+### Green Fees
+This section provides the user with the current price for a game of golf.
+
+### Membership Options
+This section displays the different membership options available for potential members.
+
+### Location
+This section embeds a Google map that the user can click on to get directions to the course. Clicking ont the map on a mobile device e.g. Android Samsung A50 opens the map in the native Google Maps application and opens a new browser instance when used on larger devices such as Desktop or Laptop.
