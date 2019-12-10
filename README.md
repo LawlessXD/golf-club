@@ -127,5 +127,22 @@ ___
 - VSCode - Used as IDE for project
 - Git - Used for version control throughout the project
 - MS Paint - Used for eyedropper tool for logo
+- Balsamiq - Used to create wireframes
+- MS Excel - Used in conjucntion with Balsamiq
+- Autoprefixer - Used to add vendor prefixes to animations in style.css
+
+___
+
+## Testing
+
+### Chrome DevTools
+
+[Chrome Devtools] was used to simulate how the website displayed on different devices with emphasis on Large Laptop (17.3") & Mobile screen sizes.
+
+[Mobile Viewport](https://github.com/LawlessXD/golf-club/blob/master/assets/images/iphone_6_7_8_plus.png "iPhone 6 Plus")
+
+[Laptop Viewport](https://github.com/LawlessXD/golf-club/blob/master/assets/images/laptop.png "Laptop 17.3 inch Screen")
+
+
 
 
