@@ -108,3 +108,10 @@ The footer includes the address, phone amd email contact details for the course 
 - Online Booking System allowing the user to book a tee time themselves.
 - Members only section to provide information to members such as upcoming competitions, results and other activities at the club.
 ___
+
+## Technologies Used
+
+### Languages
+- HTML - Used as markup for the website
+- CSS - Used to add style to the page and position elements
+- jQuery - Used in conjunction with Bootstrap V4 Framework
