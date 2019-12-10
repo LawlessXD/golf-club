@@ -212,7 +212,9 @@ The site is hosted on GitHub Pages, this was achieved by taking the following st
 
 I would like to thank my mentor Rahul Patil for suggesting VSCode as an IDE during our initial welcome conversation to the course, for his guidance and support throughout the project review sessions.
 
-I would also like to thank Simen Daehlin for a fantastic introduction to Git, it was very informative.
+I would also like to thank Simen Daehlin for a fantastic introduction to Git, it was very informative. I also discovered the Bootstrap CDN Snippet during this session and used it for the first time to create the initial HTML boilerplate.
+
+https://marketplace.visualstudio.com/items?itemName=eventyret.bootstrap-4-cdn-snippet
 
 The code used for hover animation was sourced from the following [url](https://tobiasahlin.com/blog/css-trick-animating-link-underlines/) by Tobia Sahlin.
 
