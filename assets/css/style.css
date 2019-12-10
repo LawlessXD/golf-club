@@ -31,16 +31,18 @@ ul,li{
 .navbar .navbar-toggler{
     border: 0;
 }
+/*Start https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/*/
 .custom-toggler.navbar-toggler {
     border-color: #ffffff;
 }
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+/*End https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/*/
 .navbar a{
     color: #ffffff;
 }
-/*https://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
+/*Start https://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
 .navbar-nav a{
     position: relative;
     color: #ffffff;
@@ -81,6 +83,7 @@ ul,li{
     -ms-transform: scaleX(1);
         transform: scaleX(1);
 }
+/*END of https://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
 .nav-link > span{
     padding-left: 10px;
     text-transform: uppercase;
