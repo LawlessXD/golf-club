@@ -72,17 +72,10 @@ ___
 
 ## Features
 
-# Navigation Bar
+### Navigation Bar
 The navigation bar is displayed at the top of the viewport and has a fixed position to allow the user easily navigate throughout the site content without scrolling. The navigation bar collapses into the hamburger icon on screens less than 992px. The toggle was further customised by modifying the RGB values in the SVG file and creating a custom class .custom-toggler below.
 
-'''CSS
-.custom-toggler.navbar-toggler {
-    border-color: #ffffff;
-}
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-'''
+The approach used in this [example](https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/ "How to change hambuger toggler icon") was reused to achieve the desired result. 
 
-# Background Image Zoom Effect
+### Zoom Effect
 
