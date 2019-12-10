@@ -145,7 +145,7 @@ ___
 
 I added a modal to the Book a Tee time CTA button but encountered a rendering issue on the viewport. I used Google and found the issue described in the article https://weblog.west-wind.com/posts/2016/sep/14/bootstrap-modal-dialog-showing-under-modal-background#Remove-the-Backdrop so I decided to move the modal block outside the div which had relative positioning in the same section which resolved the issue.
 
-**Manual Testing**
+### Manual Testing
 The website was tested on a Samsung A50 Android Device and the resulting layout is similar to the iPhone 8 within Chrome Devtools.
 
 Each of the Customer journeys were tested manually
@@ -165,9 +165,33 @@ A contact form is available to allow the user enter their details and message. O
 - As manager of the golf club, I want to increase the number of members at the club.
 Call to action button the landing page directs users to the contact form to submit their membership application.
 
-**Peer Code Review**
+### Peer Code Review
 Additional feedback was provided via Peer Code Review channel on Slack community application. This identified a minor bug where clicking on one membership card expanded another at the same time. This happened as the ID was not unique and once changed resolved the issue.
 
 The feedback also identified a spelling mistake which was also corrected.
+
+### Additional Testing
+W3C CSS Validator and W3C HTML Validator were used to identify any issues with the HTML and CSS code. The initial results identified syntax errors that were corrected. Example error below;
+
+The element button must not appear as a descendant of the a element.
+
+This error occured as the button element appeared inside the anchor element. This was corrected by removing the button element and adding the attributes to the anchor element.
+
+## Deployment
+The project was developed locally using Visual Studio Code. Git was downloaded from https://git-scm.com/ and installed locally for version control. In parallel, a repository also called golf-club was created on GitHub.
+
+The project workspace was initialised using git init command from the cmd terminal within VS Code.
+
+Bootstrap 4 CDN Snippet was installed from the marketplace and used for the first time to create the boilerplate as a starting point for the project.
+
+To connect the local git repository to GitHub repository, the following command was executed from the cmd terminal.
+
+git remote add origin https://github.com/LawlessXD/golf-club.git
+
+Each time a new feature was added the files would be added to the staging area using git add * from the cmd line.
+
+The features were then commited with a suitable message using git commit -m "Added navigation bar".
+
+The changes were pushed to the remote repository using git push -u origin master initially and using git push for each subsequent push.
 
 
