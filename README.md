@@ -139,7 +139,7 @@ ___
 
 **Chrome Devtools** was used to simulate how the website displayed on different devices with emphasis on Large Laptop (17.3") & Mobile screen sizes.
 
-![Mobile Viewport](https://github.com/LawlessXD/golf-club/blob/master/assets/images/iphone_6_7_8_plus.png "iPhone 6 Plus")
+![Mobile Viewport](https://github.com/LawlessXD/golf-club/blob/master/assets/images/iphone_6_7_8_plus.png=250x "iPhone 6 Plus")
 
 ![Laptop Viewport](https://github.com/LawlessXD/golf-club/blob/master/assets/images/laptop.png "Laptop 17.3 inch Screen")
 
