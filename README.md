@@ -8,7 +8,7 @@ The purpose of this project is to create a static website for a golf club using 
 
 Grange Castle Golf Club was selected as the existing official website is not mobile user friendly.  
 
-![Am I Responsive Image](https://github.com/LawlessXD/golf-club/blob/master/assets/images/AmIResponsive.JPG "Am I Responsive")
+![Am I Responsive Image](https://github.com/LawlessXD/golf-club/blob/master/assets/images/am-i-responsive.jpg "Am I Responsive")
 
 ***
 
@@ -56,4 +56,4 @@ The structure chosen is a one page site with different sections that provide the
 
 The structure plane is concerned with intuitive navigation throughout the site and how the content is presented to the user. Navigation is provided via a fixed navigation bar at the top of site which remains visible throughout the different sections of the site. The user has the ability to navigate through the site using the nav bar or by scrolling throughout the one page design. At this stage, wireframes were created using a combination of Balsamiq and MS Excel for some of the content (e.g. tables, cards). 
 
-Wireframes can be viewed [here](https://lawlessxd.github.io/golf-club/assets/wireframes/golfclubwireframes.pdf "Wireframes")
+Wireframes can be viewed [here](https://lawlessxd.github.io/golf-club/assets/wireframes/golf-club-wireframes.pdf "Wireframes")
