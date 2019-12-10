@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
 @import url('https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap');
 
 /*colours for use through the site*/
@@ -54,14 +56,17 @@ ul,li{
     background-color: #4176E8;
     visibility: hidden;
     -webkit-transform: scaleX(0);
-    transform: scaleX(0);
+    -ms-transform: scaleX(0);
+        transform: scaleX(0);
     -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
 }
 .navbar-nav a:hover:before{
     visibility: visible;
     -webkit-transform: scaleX(1);
-    transform: scaleX(1);
+    -ms-transform: scaleX(1);
+        transform: scaleX(1);
 }
 .navbar-nav a:active:before{
     content:"";
@@ -73,7 +78,8 @@ ul,li{
     background-color: #4176E8;
     visibility: visible;
     -webkit-transform: scaleX(1);
-    transform: scaleX(1);
+    -ms-transform: scaleX(1);
+        transform: scaleX(1);
 }
 .nav-link > span{
     padding-left: 10px;
@@ -87,7 +93,7 @@ ul,li{
 /*Add additional padding to push content below fixed navbar*/
 .section-padding-top{
     padding-top: 85px;
-1}
+}
 /*Header Content*/
 .bg-image{
     height: 100vh;
@@ -96,9 +102,13 @@ ul,li{
     position: relative;
     padding-top: 100px;
 
-    animation-name: bg-image-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+    -webkit-animation-name: bg-image-zoom;
+
+            animation-name: bg-image-zoom;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
 }
 .bg-image-outer{
     height: 100vh;
@@ -106,12 +116,25 @@ ul,li{
     position: relative;
 }
 
-@keyframes bg-image-zoom{
+@-webkit-keyframes bg-image-zoom{
     from{
-      transform: scale(1);
+      -webkit-transform: scale(1);
+              transform: scale(1);
     }
     to{
-      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+  }
+
+@keyframes bg-image-zoom{
+    from{
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    to{
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
     }
   }
 
@@ -208,7 +231,8 @@ table i{
 }
 .card{
     border-radius: 10px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
     text-align: center!important;
 }
 .card-text{
@@ -262,5 +286,7 @@ table i{
  }
  .social-icon:hover i{
     color: #4176E8;;
-    transform: scale(1.5);
+    -webkit-transform: scale(1.5);;
+        -ms-transform: scale(1.5);;
+            transform: scale(1.5);
  }

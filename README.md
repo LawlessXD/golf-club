@@ -71,3 +71,9 @@ The font selected for use throughout the site is the Google Font Lato as this is
 ___
 
 ## Features
+
+# Navigation Bar
+
+
+# Background Image Zoom Effect
+
