@@ -81,19 +81,30 @@ The approach used in this [example](https://www.geeksforgeeks.org/how-to-change-
 The zoom effect on the background image on the landing page was achieved using the same approach used during the Love Running project in the CSS Fundamentals module. The animation uses a wrapper div element for the image and targets the transform property increasing the scale by 10%.
 
 ### Text Overlay
-The Bootstrap jumbotron class is used to position the overlay text on the centre of the landing page with animation appied to the membership text using the bounceInUp class from https://daneden.github.io/animate.css/
+The Bootstrap jumbotron class is used to position the overlay text on the centre of the landing page with animation appied to the membership text using the bounceInUp class from https://daneden.github.io/animate.css/. The overlay text attracts potential new members to the club by informing them that membership is extended to March 2021 when joining. 
 
 ### Call to action
 The landing page has two call to action buttons. The first button "Book a Tee time" genrates a modal pop up advising users to contact the clubhouse to book a tee time. This call to action button can be developed further to open online booking system but this is outside the scope of this project. The second button "Become a member" directs users to the Contact section of the site where they can submit their membership enquiry to the Golf Club. This feature can also be developed furher to send an email to the management of the Golf Club. 
 
 ### Course Information
-The course information section presents the user with a video providing an overview of the course in conjunction with a description.
+The course information section presents the user with a video providing an overview of the course in conjunction with a description. It also provide information to societies for golf outings.
 
 ### Green Fees
-This section provides the user with the current price for a game of golf.
+This section provides the user with the current price for a game of golf on both courses along with the cost for equipment hire.
 
 ### Membership Options
 This section displays the different membership options available for potential members.
 
 ### Location
 This section embeds a Google map that the user can click on to get directions to the course. Clicking ont the map on a mobile device e.g. Android Samsung A50 opens the map in the native Google Maps application and opens a new browser instance when used on larger devices such as Desktop or Laptop.
+
+### Contact form
+The site includes a contact form should the user wish to submit an enquiry to the golf club. The contact form uses the required keyword for all input fields to ensure that the user enters the details. Additional validation via javascript can be added a later date to further enhance the form.
+
+### Footer
+The footer includes the address, phone amd email contact details for the course as well as links to social media presence.
+
+### Features to be implemented 
+- Online Booking System allowing the user to book a tee time themselves.
+- Members only section to provide information to members such as upcoming competitions, results and other activities at the club.
+___
