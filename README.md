@@ -112,24 +112,24 @@ ___
 ## Technologies Used
 
 ### Languages
-- HTML - Used as markup for the website
-- CSS - Used to add style to the page and position elements
-- jQuery - Used in conjunction with Bootstrap V4 Framework
+- **HTML** - Used as markup for the website
+- **CSS** - Used to add style to the page and position elements
+- **jQuery** - Used in conjunction with Bootstrap V4 Framework
 
 ### Libraries
-- Bootstrap - Used throughout the site for responsive design
-- Font Awesome - Used to enhance the UX 
-- Animate.css - Used to add animation to text overlay
+- **Bootstrap** - Used throughout the site for responsive design
+- **Font Awesome** - Used to enhance the UX 
+- **Animate.css** - Used to add animation to text overlay
                 Download via https://daneden.github.io/animate.css/
-- Google Fonts - imported into CSS
+- **Google Fonts** - imported into CSS
 
 ### Tools
-- VSCode - Used as IDE for project
-- Git - Used for version control throughout the project
-- MS Paint - Used for eyedropper tool for logo
-- Balsamiq - Used to create wireframes
-- MS Excel - Used in conjucntion with Balsamiq
-- Autoprefixer - Used to add vendor prefixes to animations in style.css
+- **VSCode** - Used as IDE for project
+- **Git** - Used for version control throughout the project
+- **MS Paint** - Used for eyedropper tool for logo
+- **Balsamiq** - Used to create wireframes
+- **MS Excel** - Used in conjucntion with Balsamiq
+- **Autoprefixer** - Used to add vendor prefixes to animations in style.css
 
 ___
 
@@ -137,11 +137,11 @@ ___
 
 ### Chrome DevTools
 
-[Chrome Devtools] was used to simulate how the website displayed on different devices with emphasis on Large Laptop (17.3") & Mobile screen sizes.
+**Chrome Devtools** was used to simulate how the website displayed on different devices with emphasis on Large Laptop (17.3") & Mobile screen sizes.
 
-[Mobile Viewport](https://github.com/LawlessXD/golf-club/blob/master/assets/images/iphone_6_7_8_plus.png "iPhone 6 Plus")
+![Mobile Viewport](https://github.com/LawlessXD/golf-club/blob/master/assets/images/iphone_6_7_8_plus.png "iPhone 6 Plus")
 
-[Laptop Viewport](https://github.com/LawlessXD/golf-club/blob/master/assets/images/laptop.png "Laptop 17.3 inch Screen")
+![Laptop Viewport](https://github.com/LawlessXD/golf-club/blob/master/assets/images/laptop.png "Laptop 17.3 inch Screen")
 
 
 
