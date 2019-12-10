@@ -194,4 +194,14 @@ The features were then commited with a suitable message using git commit -m "Add
 
 The changes were pushed to the remote repository using git push -u origin master initially and using git push for each subsequent push.
 
+### GitHub Pages
+The site is hosted on GitHub Pages, this was achieved by taking the following steps;
 
+- Logged into GitHub
+- Located golf-club repository
+- Navigated to settings 
+- Scrolled down to GitHub Pages
+- Changed from private to public
+- Selected master branch as the source 
+- The page was created in approx. 5-10 minutes
+- The url was then available as https://lawlessxd.github.io/golf-club/
