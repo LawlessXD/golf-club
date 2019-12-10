@@ -78,4 +78,12 @@ The navigation bar is displayed at the top of the viewport and has a fixed posit
 The approach used in this [example](https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/ "How to change hambuger toggler icon") was reused to achieve the desired result. 
 
 ### Zoom Effect
+The zoom effect on the background image on the landing page was achieved using the same approach used during the Love Running project in the CSS Fundamentals module. The animation uses a wrapper div element for the image and targets the transform property increasing the scale by 10%.
 
+### Text Overlay
+The Bootstrap jumbotron class is used to position the overlay text on the centre of the landing page with animation appied to the membership text using the bounceInUp class from https://daneden.github.io/animate.css/
+
+### Call to action
+The landing page has two call to action buttons. The first button "Book a Tee time" genrates a modal pop up advising users to contact the clubhouse to book a tee time. This call to action button can be developed further to open online booking system but this is outside the scope of this project. The second button "Become a member" directs users to the Contact section of the site where they can submit their membership enquiry to the Golf Club. This feature can also be developed furher to send an email to the management of the Golf Club. 
+
+### Course Information
