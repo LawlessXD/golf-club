@@ -26,6 +26,7 @@ The primary audience for the website are members of the public looking to play a
 - As a potential new Customer, I want to be able to find out where the course is located.
 - As a potential new member, I want to be able to view the different types of membership available.
 - As an existing Customer, I want to be able to book a tee time.
+- As a potential Customer, I want to be to contact the Golf Club to request additional information.
 
 The management of the golf club want to create an online presence for the club and provide information about the course with the objective to get additional Customers both as occasional golfers and to increase the total number of members.  
 - As manager of the golf club, I want to increase the number of members at the club.
@@ -137,10 +138,36 @@ ___
 
 ### Chrome DevTools
 
-**Chrome Devtools** was used to simulate how the website displayed on different devices with emphasis on Large Laptop (17.3") & Mobile screen sizes.
+**Chrome Devtools** was used to simulate how the website displayed on different devices with emphasis on Large Laptop (17.3") & Mobile screen sizes. It was also used as the main debugging tool when content was displayed incorrectly.
 
-![Mobile Viewport](https://github.com/LawlessXD/golf-club/blob/master/assets/images/iphone_6_7_8_plus.png "iPhone 6 Plus")![Laptop Viewport](https://github.com/LawlessXD/golf-club/blob/master/assets/images/laptop.png "Laptop 17.3 inch Screen")
+![Mobile Viewport](https://github.com/LawlessXD/golf-club/blob/master/assets/images/iphone_6_7_8_plus.png "iPhone 6 Plus")
+![Laptop Viewport](https://github.com/LawlessXD/golf-club/blob/master/assets/images/laptop.png "Laptop 17.3 inch Screen")
 
+I added a modal to the Book a Tee time CTA button but encountered a rendering issue on the viewport. I used Google and found the issue described in the article https://weblog.west-wind.com/posts/2016/sep/14/bootstrap-modal-dialog-showing-under-modal-background#Remove-the-Backdrop so I decided to move the modal block outside the div which had relative positioning in the same section which resolved the issue.
 
+**Manual Testing**
+The website was tested on a Samsung A50 Android Device and the resulting layout is similar to the iPhone 8 within Chrome Devtools.
+
+Each of the Customer journeys were tested manually
+
+- As a potential new Customer, I want to be able to find out information about the course.
+The course information is displayed to the user when selecting Course from the navigation menu.
+- As a potential new Customer, I want to be able to find out the current green fees.
+Current green fees are available when selecting Green Fees from the navigation menu.
+- As a potential new Customer, I want to be able to find out where the course is located.
+The embedded google map is clickable on both mobile and Desktop viewports launching the native Google Maps application on mobile and a new browser instance on Desktop.
+- As a potential new member, I want to be able to view the different types of membership available.
+The membership options are available on the navigation menu.
+- As an existing Customer, I want to be able to book a tee time.
+Call to action button the landing page directs users to a modal box to advise them to book a tee time through the clubhouse. An online booking system would be the preferred option but is out of scope for this project.
+- As a potential Customer, I want to be to contact the Golf Club to request additional information.
+A contact form is available to allow the user enter their details and message. Once the form is submitted, a confirmation dialog box is displayed to the user to advise them that club will be in contact shortly.
+- As manager of the golf club, I want to increase the number of members at the club.
+Call to action button the landing page directs users to the contact form to submit their membership application.
+
+**Peer Code Review**
+Additional feedback was provided via Peer Code Review channel on Slack community application. This identified a minor bug where clicking on one membership card expanded another at the same time. This happened as the ID was not unique and once changed resolved the issue.
+
+The feedback also identified a spelling mistake which was also corrected.
 
 
