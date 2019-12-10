@@ -177,6 +177,8 @@ The element button must not appear as a descendant of the a element.
 
 This error occured as the button element appeared inside the anchor element. This was corrected by removing the button element and adding the attributes to the anchor element.
 
+Autoprefixer was used to ensure that vendor prefixes had been added to the CSS.s 
+
 ## Deployment
 The project was developed locally using Visual Studio Code. Git was downloaded from https://git-scm.com/ and installed locally for version control. In parallel, a repository also called golf-club was created on GitHub.
 
@@ -205,3 +207,23 @@ The site is hosted on GitHub Pages, this was achieved by taking the following st
 - Selected master branch as the source 
 - The page was created in approx. 5-10 minutes
 - The url was then available as https://lawlessxd.github.io/golf-club/
+
+## Acknowledgement & Credits
+
+I would like to thank my mentor Rahul Patil for suggesting VSCode as an IDE during our initial welcome conversation to the course, for his guidance and support throughout the project review sessions.
+
+I would also like to thank Simen Daehlin for a fantastic introduction to Git, it was very informative.
+
+The code used for hover animation was sourced from the following [url](https://tobiasahlin.com/blog/css-trick-animating-link-underlines/) by Tobia Sahlin.
+
+The custom toggler class was sourced from the following [url](https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/)
+
+The sample code available at https://getbootstrap.com/ was used for generating modal dialog boxes.
+
+The background zoom effect on the landing page was generated using the same approach thought during the love running project in the Code Institute CSS module.
+
+The bounceInUp class used for the text overlay animation is from https://daneden.github.io/animate.css/
+
+### Media
+
+The media used on the site (course videos, images and logo) is taken from the existing Grange Castle Golf Club website.
